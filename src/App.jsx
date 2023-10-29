@@ -50,7 +50,8 @@ a {
   font-size: 16px;
   transition: all 0.2s ease-in-out; 
   &:hover {
-    text-decoration: underline;
+    color: #f95738;
+    font-size: 17px;
   }
 }
 `;
