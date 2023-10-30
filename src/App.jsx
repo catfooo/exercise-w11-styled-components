@@ -1,6 +1,20 @@
 import styled from "styled-components";
 import logo from "./logo.png"
 
+const Button1 = styled.button`
+    background-color: #262626;
+    color: #eff7f6;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 0.5em;
+    transition: transform 0.2s ease-in-out;
+    &:hover {
+    // transform: scale(1.1);
+    cursor: pointer;
+    color: #f95738;
+    }
+`;
+
 const Button = styled.button`
   color: #bf4f74;
   font-size: 1em;
@@ -21,6 +35,11 @@ const Logo = styled.img`
 
 const Container = styled.div`
   background-color: #eff7f6;
+  // padding: 1em;
+  // @media (min-width: 768px) {
+  //   padding: 2em;
+  // responsive practice
+  }
 `;
 
 const Header = styled.header`
@@ -74,6 +93,7 @@ export const App = () => {
           </li>
         </HeaderLinks>
         <div></div> {/* Empty div to keep space between */}
+        <Button1>Change Language</Button1>
       </Header>
       <Button>Normal Button</Button>
       <TomatoButton>Tomato Button</TomatoButton>
