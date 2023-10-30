@@ -5,6 +5,7 @@ const Button1 = styled.button`
     background-color: #262626;
     color: #eff7f6;
     padding: 1em 2em;
+    // padding: 0.5em 1em;
     border: none;
     border-radius: 0.5em;
     transition: transform 0.2s ease-in-out;
@@ -13,6 +14,10 @@ const Button1 = styled.button`
     cursor: pointer;
     color: #f95738;
     }
+    // font-size: 13.3333px
+    width: 163.039px
+    // min-width: 200px
+    // white-space: nowrap
 `;
 
 const Button = styled.button`
